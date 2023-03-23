@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 150;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ /* Стилизация тегов */
+
+body {
+    transition: 2s;
+}
+
+h1 {
+    text-align: center;
+    transition: 2s;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+ /* Стилизация блока */
+
+.themes {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* Стилизация кнопки */
+
+button {
+    padding: 8px;
+    border-radius: 8px;
+    background: #00a6ff28;
+    border-style: solid;
+    border-color: rgb(0, 162, 255);
+    font-size: 20px;
+    margin-top: 1em;
+    outline: none;
+}
+
+button:hover {
+    margin-top: 2em;
+    background: #5ec7ff;
+    border-color: rgb(0, 136, 215);
+    transition: 0.5s;
+}
+
+ /* Стилизация подвала */
+
+.footers {
+    margin: 2rem;
+    text-align: center;
+}
+
+.splashrp {
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
